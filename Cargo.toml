@@ -1,0 +1,18 @@
+[package]
+name = "xgrapes"
+version = "0.0.1"
+authors = ["Vincent Roy <metakernel@outlook.com"]
+edition = "2021"
+description = "XGrapes is a rust cross-platform GUI framework based on the Flux Architecture."
+license = "MIT"
+repository = "https://github.com/metakernel/XGrapes"
+documentation = "https://docs.rs/xgrapes"
+readme = "README.md"
+keywords = ["gui", "ui", "graphics", "interface", "widgets"]
+categories = ["gui"]
+resolver = "2"
+
+[dependencies]
+racnl = { git = "https://github.com/metakernel/racnl"}
+
+[workspace]
